@@ -1,0 +1,117 @@
+body,html{height:100%;padding:0px;margin:0px;background-image: url("../img/fondo.png");}	
+.a{}
+.b{}
+.c{display:block !important}
+.a,.b,.c{display:inline-block;width:33.33%;height:100%;float:left;}
+.d{height:10%;width:100%;position:fixed;bottom:0px;}
+.d img{width: 100%}
+#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%}
+#nave img{height:100%;}
+#cpanel{}
+#hidem,#showm{display:none}
+#mensaje {
+    position: fixed;
+    color:blue;
+    top: 10%;
+    width: 65%;
+    line-height: 200%;
+    left: 13.5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw;
+    border: solid white;
+    background:green;
+    opacity: 0.8;
+    display: none;
+}
+#box_stats{
+	margin-left:3%;
+	margin-top:3%;
+	width:140px;
+	height: 220px;
+	display: block;
+	border: 1px solid green;
+	background: rgba(200,50,0,0.9);
+}
+#gasolina,#speed,#height{
+	margin-right: 5%;
+	margin-top:10%;
+	width: 45px;
+	height: 45px;
+	display:inline-block;
+	float:right;
+	border: 1px solid black;
+	background: rgba(0,255,0,0.5);
+}
+.stats{
+	padding-top: 5%;
+	width:60px;
+	padding-left: 5px;
+	display: inline-block;
+}
+
+
+.pauseMenu ul{
+	list-style-type:none;
+	margin:auto;
+	margin-right: 5%;
+	margin-top:10%;
+	padding:0;
+	width:50%;
+	background: rgba(0,0,255, 0.3);
+	border: 1px solid yellow;
+	font-size:25px;
+}
+
+.pauseMenu li a{
+	display:block;
+	color: rgb(255,255,0);
+	padding: 10px 20px;
+	text-decoration: none;
+
+}
+
+.pauseMenu li{
+	text-align:center;
+	border-bottom:1px solid yellow;
+}
+.pauseMenu li a:hover {
+    background: rgba(128,0,128,0.3);
+    color: rgb(0,255,0);
+}
+.pauseMenu li:last-child{
+	border-bottom: none;
+}
+
+#gas{
+	display:none;
+	position: fixed;
+	left: 2px;
+	font-size: 20px;
+	color:rgba(255,255,255,1);
+}
+#velo{
+	display:none;
+	position: fixed;
+	left:80px;
+	font-size: 20px;
+	color:rgba(255,255,255,1);	
+}
+#altu{
+	display:none;
+	position: fixed;
+	left:180px;
+	font-size: 20px;
+	color:rgba(255,255,255,1);		
+}
+
+#alien{
+	display:none;
+	position:fixed;
+	float:right;
+	top:200px;
+	
+}
+#power{
+	display:none;
+}
